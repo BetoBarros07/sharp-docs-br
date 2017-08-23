@@ -4,7 +4,6 @@ namespace O7.SharpDocsBR
 {
     public class CPFValidationAttribute : ValidationAttribute
     {
-        private readonly string _onlyNumberRegexPattern = @"^\d$";
         private readonly bool _excludeNonNumericCharacters;
 
         /// <summary>
