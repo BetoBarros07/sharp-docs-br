@@ -2,6 +2,9 @@
 
 namespace O7.SharpDocsBR
 {
+    /// <summary>
+    /// Attribute to validate CPF.
+    /// </summary>
     public class CPFValidationAttribute : ValidationAttribute
     {
         private readonly bool _excludeNonNumericCharacters;

@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>O7.SharpDocsBR</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>betobarros07</Authors>
+    <Description>Sharp Docs Brazilian is a library with some DataAnnotations to validate brazilian documents in ASP.NET.</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>First release for .Net Standard pack</PackageReleaseNotes>
+    <Copyright>Copyright 2017 (c)</Copyright>
+    <PackageTags>AspNetCore CustomDataAnnotations BrazilianDocumentsValidation CPFValidation CPF CNPJ CNPJValidation</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

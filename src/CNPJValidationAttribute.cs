@@ -2,15 +2,25 @@
 
 namespace O7.SharpDocsBR
 {
+    /// <summary>
+    /// Attribute to validate CNPJ.
+    /// </summary>
     public class CNPJValidationAttribute : ValidationAttribute
     {
         private readonly bool _excludeNonNumericCharacters;
 
+        /// <summary>
+        /// Used when you receive a CNPJ like "33545831000106".
+        /// </summary>
         public CNPJValidationAttribute()
         {
             _excludeNonNumericCharacters = false;
         }
 
+        /// <summary>
+        /// Used when you receive a CPF like "33.545.831/0001-06".
+        /// </summary>
+        /// <param name="ExcludeNonNumericCharacters">If you want to remove all the special characters, set to true.</param>
         public CNPJValidationAttribute(bool ExcludeNonNumericCharacters)
         {
             _excludeNonNumericCharacters = ExcludeNonNumericCharacters;
