@@ -1,8 +1,8 @@
 # Sharp Docs Brazilian
 
-[![Build](https://travis-ci.org/BetoBarros07/sharp_docs_br.svg)](https://travis-ci.org/BetoBarros07/sharp_docs_br)
+[![Build](https://travis-ci.org/BetoBarros07/sharp-docs-br.svg)](https://travis-ci.org/BetoBarros07/sharp-docs-br)
 [![Nuget Version](http://img.shields.io/nuget/v/O7.SharpDocsBR.svg)](http://www.nuget.org/packages/O7.SharpDocsBR)
-[![Issues open](https://img.shields.io/github/issues/betobarros07/sharp_docs_br.svg)](https://github.com/BetoBarros07/sharp_docs_br/issues)
+[![Issues open](https://img.shields.io/github/issues/betobarros07/sharp-docs-br.svg)](https://github.com/BetoBarros07/sharp-docs-br/issues)
 [![Unlicense](https://img.shields.io/badge/license-unlicense-orange.svg)](LICENSE)
 
 Sharp Docs Brazilian is a library with some DataAnnotations to validate brazilian documents in ASP.NET.
